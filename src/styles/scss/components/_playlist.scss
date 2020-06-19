@@ -2,5 +2,19 @@
 ############################################################################ */
 
 .playlist {
+}
 
+.playlist-card {
+  border-bottom: 1px solid $darkest;
+  padding: $xxs;
+  display: block;
+  .playlist-name {
+    display: inline-block;
+  }
+  .playlist-artist {
+    display: inline-block;
+  }
+  &:hover {
+    cursor: pointer;
+  }
 }
